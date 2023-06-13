@@ -12,7 +12,7 @@ const jobSchema = mongoose.Schema({
     "language": { type: String, required: true }
 
 })
-
+console.log("hell0o")
 const JobModel=mongoose.model("jobs",jobSchema)
 
 module.exports={JobModel}
